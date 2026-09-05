@@ -1,0 +1,23 @@
+name: ts-hazard
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - geopandas>=1.0        # union_all() requires >=1.0
+  - pandas>=2.0
+  - numpy
+  - scipy
+  - matplotlib
+  - seaborn
+  - cartopy
+  - cmcrameri
+  - pycountry
+  - tabulate
+  - openpyxl              # EM-DAT .xlsx
+  - requests
+  - jupyterlab
+  - pytest
+  - nbstripout
+  - pip
+  - pip:
+      - earthengine-api

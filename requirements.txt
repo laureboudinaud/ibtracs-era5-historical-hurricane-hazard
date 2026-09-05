@@ -1,0 +1,18 @@
+# conda (environment.yml) is preferred — cartopy and geopandas build more
+# reliably from conda-forge.
+geopandas>=1.0
+pandas>=2.0
+numpy
+scipy
+matplotlib
+seaborn
+cartopy
+cmcrameri
+pycountry
+tabulate
+openpyxl
+requests
+earthengine-api
+jupyterlab
+pytest
+nbstripout
