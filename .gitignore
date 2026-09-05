@@ -1,0 +1,32 @@
+# ── Data (never commit: large, licensed, or re-downloadable) ──────────────────
+inputs/*
+outputs/*
+!inputs/.gitkeep
+!outputs/.gitkeep
+*.csv
+*.xlsx
+*.nc
+*.grib
+*.tif
+
+# ── Credentials / environment ────────────────────────────────────────────────
+.env
+.config/earthengine/
+credentials
+*credentials*.json
+*service-account*.json
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+
+# ── OS / editor ──────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
